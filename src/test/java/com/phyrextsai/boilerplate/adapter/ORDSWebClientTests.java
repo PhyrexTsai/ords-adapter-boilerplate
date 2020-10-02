@@ -1,4 +1,4 @@
-package com.phyrextsai.adapter;
+package com.phyrextsai.boilerplate.adapter;
 
 import com.phyrextsai.boilerplate.adapter.webclient.ORDSWebClient;
 
