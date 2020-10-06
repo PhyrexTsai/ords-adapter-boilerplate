@@ -1,7 +1,7 @@
 package com.phyrextsai.boilerplate.adapter.exception;
 
 public class ParameterMismatchException extends RuntimeException {
-  private String errorCode = "ERR-20400";
+    private String errorCode = "ERR-20400";
 
     public ParameterMismatchException() {
         super();

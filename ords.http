@@ -1,0 +1,40 @@
+@endpoint = http://localhost:8080/ords
+
+### GET Employee
+GET {{endpoint}}/bankee/api/employees/
+
+### GET Employee by id
+GET {{endpoint}}/bankee/api/employees/1234
+
+### POST Employee
+POST {{endpoint}}/bankee/api/employees/
+Content-Type: application/json
+
+{
+  "empno": 1234,
+  "ename": "P", 
+  "job": "ADMIN", 
+  "mgr": 1234,
+  "hiredate": "1985-12-17",
+  "sal": 4000,
+  "comm": 400,
+  "deptno": 10
+}
+
+### PUT Employee
+PUT {{endpoint}}/bankee/api/employees/
+Content-Type: application/json
+
+{
+  "empno": 1234,
+  "ename": "PT", 
+  "job": "ADMIN", 
+  "mgr": 1234,
+  "hiredate": "1985-12-17",
+  "sal": 4000,
+  "comm": 400,
+  "deptno": 10
+}
+
+### DELETE Employee
+DELETE {{endpoint}}/bankee/api/employees/1234
