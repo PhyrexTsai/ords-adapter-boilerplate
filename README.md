@@ -36,7 +36,11 @@ mvn clean package
 STEP 4. Copy jar file from `target/ords-adapter-boilerplate-1.0.0.jar` to `spring-boot-ords-boilerplate` project
 
 ## 📦<a name="folder-structure"></a>Folder Structure
-
+- converter: convert request, response to entity
+- entity: Object entity for origin ORDS data structure 
+- exception: Define exception
+- parameter: Define RESTful API Parameters, Request, Response
+- webclient: Connect ORDS with WebClient
 
 ## 📑<a name="generate-java-doc"></a>Generate Java Doc
 
