@@ -18,22 +18,23 @@ ORDS Adapter Boilerplate is the ORDS library to covert request and response data
 
 ## 🏗<a name="build-and-run"></a>Build and Run
 
-STEP 1. Install dependancy
+STEP 1. Install dependancy  
 ```
 mvn install
 ```
 
-STEP 2. Test
+STEP 2. Test  
 ```
 mvn clean test
 ```
 
-STEP 3. Pack jar file
+STEP 3. Pack jar file  
 ```
 mvn clean package
 ```
 
-STEP 4. Copy jar file from `target/ords-adapter-boilerplate-1.0.0.jar` to `spring-boot-ords-boilerplate` project
+STEP 4. Copy jar  
+Copy jar file from `target/ords-adapter-boilerplate-1.0.0.jar` to `spring-boot-ords-boilerplate` project
 
 ## 📦<a name="folder-structure"></a>Folder Structure
 - converter: convert request, response to entity
@@ -44,12 +45,12 @@ STEP 4. Copy jar file from `target/ords-adapter-boilerplate-1.0.0.jar` to `sprin
 
 ## 📑<a name="generate-java-doc"></a>Generate Java Doc
 
-STEP 1. Run the command to generate Java doc
+STEP 1. Run the command to generate Java doc  
 ```
 mvn javadoc:javadoc
 ```
 
-STEP 2. Open Java doc
+STEP 2. Open Java doc   
 Open `target/site/apidocs/index.html`, it will show Java doc as well
 
 ## 🎯<a name="trouble-shooting"></a>Trouble Shooting
